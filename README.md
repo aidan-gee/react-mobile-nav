@@ -1,6 +1,7 @@
+
 # mobile-nav
 
-__COMPONENT DESCRIPTION GOES HERE__
+A mobile navigation component built using reactjs
 
 
 ## Demo & Examples
@@ -30,7 +31,7 @@ npm install react-mobile-nav --save
 
 ## Usage
 
-__EXPLAIN USAGE HERE__
+TODO
 
 ```
 var MobileNav = require('react-mobile-nav');
@@ -40,11 +41,11 @@ var MobileNav = require('react-mobile-nav');
 
 ### Properties
 
-* __DOCUMENT PROPERTIES HERE__
+TODO
 
 ### Notes
 
-__ADDITIONAL USAGE NOTES__
+TODO
 
 
 ## Development (`src`, `lib` and the build process)
@@ -53,9 +54,7 @@ __ADDITIONAL USAGE NOTES__
 
 To build, watch and serve the examples (which will also watch the component source), run `npm start`. If you just want to watch changes to `src` and rebuild `lib`, run `npm run watch` (this is useful if you are working with `npm link`).
 
-## License
-
-__PUT LICENSE HERE__
 
 Copyright (c) 2015 Aidan Gee &lt;aidangeewd@gmail.com.
+
 
