@@ -1,0 +1,29 @@
+{
+  "name": "react-mobile-nav",
+  "version": "0.0.0",
+  "description": "mobile-nav",
+  "main": "dist/react-mobile-nav.min.js",
+  "homepage": "https://github.com/aidan-gee/react-mobile-nav",
+  "authors": [
+    "Aidan Gee &lt;aidangeewd@gmail.com"
+  ],
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "react",
+    "react-component"
+  ],
+  "license": "MIT",
+  "ignore": [
+    ".editorconfig",
+    ".gitignore",
+    "package.json",
+    "src",
+    "node_modules",
+    "example",
+    "test"
+  ]
+}
