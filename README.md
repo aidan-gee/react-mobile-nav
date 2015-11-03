@@ -18,25 +18,34 @@ npm start
 Then open [`localhost:8000`](http://localhost:8000) in a browser.
 
 
-## Installation
-
-The easiest way to use react-mobile-nav is to install it from NPM and include it in your own React build process (using [Browserify](http://browserify.org), [Webpack](http://webpack.github.io/), etc).
-
-You can also use the standalone build by including `dist/react-mobile-nav.js` in your page. If you use this, make sure you have already included React, and it is available as a global variable.
-
-```
-npm install react-mobile-nav --save
-```
-
-
 ## Usage
 
-TODO
+Require and render where needed with the tag below. 
 
 ```
 var MobileNav = require('react-mobile-nav');
 
-<MobileNav>Example</MobileNav>
+<MobileNav/>
+```
+
+For example you could load it in your controller-view :
+
+```
+var React = require('react');
+var ReactDom = require('react-dom');
+var MobileNav = require('react-mobile-nav');
+
+var App = React.createClass({
+	render () {
+		return (
+			<div>
+				<MobileNav />
+			</div>
+		);
+	}
+});
+
+ReactDom.render(<App />, document.getElementById('app'));
 ```
 
 ### Properties
@@ -45,7 +54,21 @@ TODO
 
 ### Notes
 
-TODO
+TODO's 
+
+General clean up and more comments
+
+Tidy up the demo with some css, icons and animations
+
+Allow animation options for showing / hiding the nave and the accordian-like nav elements
+
+Pass the nav data as a prop, allowing for the data to be passed in an attribute - see https://facebook.github.io/react/tips/props-in-getInitialState-as-anti-pattern.html
+
+Allow a method of supplying a url to make an ajax call for initial state - see https://facebook.github.io/react/tips/initial-ajax.html
+
+Port to react-native
+
+
 
 
 ## Development (`src`, `lib` and the build process)
