@@ -19,7 +19,10 @@ var taskConfig = {
 			'react',
 			'react/addons'
 		],
-		lib: 'lib'
+		lib: 'lib',
+		less: {
+			entry: 'app.css'
+		}
 	},
 
 	example: {

@@ -1,4 +1,5 @@
 var React = require('react');
+var ReactDom = require('react-dom');
 var MobileNav = require('react-mobile-nav');
 
 var App = React.createClass({
@@ -11,4 +12,4 @@ var App = React.createClass({
 	}
 });
 
-React.render(<App />, document.getElementById('app'));
+ReactDom.render(<App />, document.getElementById('app'));

@@ -13,7 +13,8 @@
     "url": "https://github.com/aidan-gee/react-mobile-nav/issues"
   },
   "dependencies": {
-    "classnames": "^2.1.2"
+    "classnames": "^2.1.2",
+    "react-dom": "~0.14.0"
   },
   "devDependencies": {
     "babel-eslint": "^3.1.14",
